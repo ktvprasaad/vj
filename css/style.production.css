@@ -113,6 +113,10 @@ ul li a:hover {
   display: grid;
 }
 
+.open-nav a {
+  font-size: 1.4em;
+}
+
 span {
   color: #ffd369;
   font-style: italic;

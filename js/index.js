@@ -3,7 +3,6 @@ const get = element => document.getElementById(element);
 let open = get("menu-btn");
 let nav = get("nav");
 let exit = get("exit-btn");
-let hme = get("home-link")
 let abt = get("abt-link");
 let skl = get("skl-link");
 let wrk = get("wrk-link");
@@ -17,45 +16,35 @@ exit.addEventListener('click', () => {
 	nav.classList.remove('open-nav');
 })
 
-hme.addEventListener('click', (event) => {
-	console.log(event.target);
-	nav.classList.remove('open-nav');
-})
-
 abt.addEventListener('click', (event) => {
-	console.log(event.target);
 	nav.classList.remove('open-nav');
 })
 skl.addEventListener('click', (event) => {
-	console.log(event.target);
 	nav.classList.remove('open-nav');
 })
 
 wrk.addEventListener('click', (event) => {
-	console.log(event.target);
 	nav.classList.remove('open-nav');
 })
 
 cnt.addEventListener('click', (event) => {
-	console.log(event.target);
 	nav.classList.remove('open-nav');
 })
 
 let navLinks = document.querySelectorAll("nav ul li a");
-let mainSections = document.querySelectorAll("section");
 
 window.addEventListener("scroll", event => {
   let fromTop = window.scrollY - 70;
 
   navLinks.forEach(link => {
 	let section = document.querySelector(link.hash);
-    if (
-      section.offsetTop <= fromTop + 75 &&
-      section.offsetTop + section.offsetHeight > fromTop + 75
-    ) {
-      link.classList.add("active");
-    } else {
-      link.classList.remove("active");
-    }
+	if (
+	section.offsetTop <= fromTop + 75 &&
+	section.offsetTop + section.offsetHeight > fromTop + 75
+	) {
+	link.classList.add("active");
+	} else {
+	link.classList.remove("active");
+	}
   });
 });
