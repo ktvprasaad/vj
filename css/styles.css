@@ -167,6 +167,8 @@ span {
     /* margin: 1em auto 2em; */
     font-size: 1.2em; 
     border: 1px solid #ffd369;
+    font-weight: bold;
+
     /* border-radius: .3em; */
     /* justify-content: center; */
     /* text-align: center; */
