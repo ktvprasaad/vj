@@ -390,6 +390,10 @@ a#web:hover {
     padding: 0;
 }
   
+.cs__item h4 {
+    font-size: .6em;
+}
+
 #cs {
     color: #a6a6a6 !important;
     position: absolute;
@@ -603,6 +607,9 @@ h6 {
     } */
     .contact__item{
         width: 70%;
+    }
+    .cs__item h4 {
+        font-size: 1em;
     }
 }
 
