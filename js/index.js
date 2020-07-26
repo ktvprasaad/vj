@@ -48,3 +48,10 @@ window.addEventListener("scroll", event => {
 	}
   });
 });
+
+var tl = gsap.timeline({defaults:{duration: 1}});
+
+tl.from(".profile-img", {y: -50, opacity: 0})
+  .to(".profile-content", {clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)"}, "-=.9")
+  .to(".btn", {clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)"}, "-=1")
+//   .from("ul.featured-cabins li", {y: 50, opacity: 0, stagger: .3}, "-=.7")

@@ -146,6 +146,8 @@ span {
   place-content: center;
   width: 60%;
   margin: 0 auto;
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
   /* padding: 0 2em; */
 }
 
@@ -175,6 +177,8 @@ span {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-bottom: 2em;
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
 }
 
 #btn-work {
@@ -236,7 +240,7 @@ span {
           justify-content: center;
   width: 90%;
   margin: 0 auto;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .iam h1 {
@@ -358,7 +362,7 @@ span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 auto 1em;
+  margin: 0 auto 2em;
   font-size: 1.2em;
   color: #a6a6a6;
   width: 85%;
@@ -495,11 +499,25 @@ a#web:hover {
   left: 20px;
 }
 
-#site {
+#doc {
   color: #ff5757 !important;
   position: absolute;
   top: 20px;
+  right: 100px;
+}
+
+#site {
+  color: black;
+  background: #ff5757;
+  position: absolute;
+  top: 20px;
   right: 20px;
+}
+
+#site:hover {
+  background-color: black;
+  color: #ff5757;
+  border: 1px solid #ff5757;
 }
 
 .meet {
