@@ -165,7 +165,7 @@ span {
 }
 #btn-contact {
     /* display: block; */
-    padding: .4em .5em;
+    padding: .5em .5em;
     color: var(--primary-bg-color);
     background: #ffd369;
     cursor: pointer;
@@ -187,7 +187,7 @@ span {
     display: grid;
     justify-content: center;
     place-content: center;
-    height: 700px;
+    /* height: 700px; */
     position: relative;
     /* padding: 1em; */
 }
@@ -215,14 +215,15 @@ span {
 .resume {
     display: block;
     width: 250px;
-    padding: .2em .3em;
+    padding: .5em .6em;
     background: var(--primary-bg-color);
     color: #ffd369;
     cursor: pointer;
-    margin: 2em auto auto;
+    margin: 1em auto;
     justify-content: center;
     text-align: center;
     border: 1px var(--primary-bg-color) solid;
+    font-size: 1.2em;
 }
 
 .resume:hover {
