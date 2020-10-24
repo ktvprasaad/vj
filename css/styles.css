@@ -59,7 +59,7 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
-    background: #263f44;
+    background: #393939;
     height: 100vh;
     width: 100%;
     padding: 0;
@@ -156,10 +156,10 @@ ul li a:hover {
     padding: .5em .5em;
     width: 150px;
     color: var(--primary-bg-color);
-    background: #92d5e6;
+    background: #ff8882;
     cursor: pointer;
     font-size: 1.2em; 
-    border: 1.2px solid #92d5e6;
+    border: 1.2px solid #ff8882;
     font-weight: bolder;
     transition: font-size .8s .3s, transform 1s .2s ease-out;
     justify-content: center;
@@ -175,10 +175,10 @@ ul li a:hover {
 #btn-contact:hover {
     opacity: .9;
     transform: scale(1.1,1.1);
-    color: #92d5e6;
+    color: #fff1cf;
     transform: scaleX(1.2);
     background-color: #393939;
-    border: 1.2px solid #92d5e6;
+    border: 1.2px solid #fff1cf;
 }
 
 #about {
@@ -495,7 +495,7 @@ h6 {
     display: block;
     margin: 0 auto 1em;
     padding: .5em;
-    font-size: 2em;
+    font-size: 2.4em;
     width: 100%;
 }
 span {
@@ -508,7 +508,7 @@ span:before {
     position: absolute;
     bottom: 0;
     left: -5%;
-    height: 21px;
+    height: 18px;
     width: 108%;
     background: #ff8882;
     z-index: -1;
