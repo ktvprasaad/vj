@@ -24,6 +24,7 @@ body {
 h1 {
     text-transform: uppercase;
     font-family: 'Playfair Display', serif;
+    letter-spacing: .03em;
 } 
 
 #name {
@@ -72,7 +73,7 @@ ul {
 }
 
 ul li a {
-    color: #fff1cf;
+    color: #aea493;
     padding: 1.2em;
     display: block;
     font-size: 1rem;
@@ -80,7 +81,7 @@ ul li a {
 
 ul li a:hover {
     color: #fff1cf;
-    opacity: 0.5; 
+    /* opacity: 0.5;  */
 }
 .exit svg {
     width: 1.5em;
@@ -122,7 +123,7 @@ ul li a:hover {
     font-size: 2.4em;
 }
 .profile-content p {
-    color: #fff;
+    color: #aea493;
     display: block;
     width: 95%;
     margin: 0 auto .5em;
@@ -144,23 +145,23 @@ ul li a:hover {
     clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); 
 }
 #btn-project {
-    padding: .4em .5em;
+    padding: .9em 1em;
     width: 150px;
     color: var(--primary-bg-color);
     background: #fff1cf;
     cursor: pointer;
-    font-size: 1em; 
+    font-size: 1.1em; 
     justify-content: center;
 }
 #btn-contact {
-    padding: .5em .5em;
+    padding: 1em;
     width: 150px;
     color: var(--primary-bg-color);
     background: #ff8882;
     cursor: pointer;
-    font-size: 1em; 
+    font-size: 1.1em; 
     border: 1.2px solid #ff8882;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     justify-content: center;
 }
 
@@ -235,11 +236,9 @@ ul li a:hover {
 }
 
 .resume:hover {
-    box-shadow: 10px 10px 15px 0px rgb(255, 136, 130,.3);
+    /* box-shadow: 10px 10px 15px 0px rgb(255, 136, 130,.3); */
     text-decoration: none;
     color: #ff8882; 
-    transform: scaleX(1.2);
-    transition: all .5s .5s linear;
 }
 
 #skills { 
@@ -314,7 +313,7 @@ ul li a:hover {
     justify-content: center;
     margin: 0 auto 2em;
     font-size: 1em;
-    color: #fff1cf;
+    color: #aea493;
     width: 85%;
 }
 .projects__item div {
@@ -338,7 +337,7 @@ a:hover, a#web:hover, a#case:hover {
     color: #ff8882;
 }
 .projects__item {
-    border: .1px solid #fff1cf;
+    border: .1px dotted #aea493;
     border-radius: 2em;
     margin-bottom: 1em;
 }
@@ -495,7 +494,7 @@ a:hover, a#web:hover, a#case:hover {
     padding: .5em;
 }
 h6 {
-    color: #ff8882;
+    color: #aea493;
     opacity: .6;
     margin: 0;
 }
@@ -576,7 +575,6 @@ h6 {
     }
     .profile-content p {
         text-align: left;
-        color: #d3c4c4;
     }
     #project {
         padding: 3em;
